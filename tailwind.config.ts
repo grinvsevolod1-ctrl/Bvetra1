@@ -1,13 +1,21 @@
-module.exports = {
-  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './pages/**/*.{ts,tsx}'],
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  darkMode: ["class"],
+  content: [
+    "./app/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./pages/**/*.{ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
-        accent: 'var(--accent)',
-        surface: 'var(--surface)'
+        gold: "#c8a959",
+        dark: "#0a0a0a",
+        graygold: "#a5977b",
       },
-      fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] }
-    }
+    },
   },
   plugins: [],
-}
+};
+export default config;
