@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "format": "prettier --write .",
-  "test": "vitest run",
-  "vercel-build": "next build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.20",
@@ -45,7 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^8.10.0",
     "@typescript-eslint/parser": "^8.10.0",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.9.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.6",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-tailwindcss": "^3.15.1",
