@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
-    typedRoutes: true
+    typedRoutes: false
   },
   images: {
     domains: ["images.unsplash.com", "bvetra.ru", "cdn.bvetra.ru"]
