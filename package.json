@@ -47,6 +47,7 @@
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.46.0",
     "@typescript-eslint/parser": "^8.46.0",
+    "@humanwhocodes/config-array": "^0.10.0",
     "eslint-config-next": "14.2.6",
     "prettier": "^3.3.3",
     "typescript": "^5.6.3"
@@ -54,7 +55,6 @@
   "overrides": {
     "rimraf": "^4.0.0",
     "glob": "^9.0.0",
-    "@humanwhocodes/object-schema": "@eslint/object-schema",
-    "@humanwhocodes/config-array": "@eslint/config-array"
+    "@humanwhocodes/object-schema": "@eslint/object-schema"
   }
 }
