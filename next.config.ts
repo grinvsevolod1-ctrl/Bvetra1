@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
+const { withSentryConfig } = require('@sentry/nextjs');
+
 const nextConfig = {
   reactStrictMode: true,
-  experimental: { appDir: true },
-  i18n: {
-    locales: ['ru', 'en'],
-    defaultLocale: 'ru'
+  swcMinify: true,
+  experimental: {
+    appDir: true
   }
 };
-module.exports = nextConfig;
+
+module.exports = withSentryConfig(nextConfig);
