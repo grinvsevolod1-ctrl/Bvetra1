@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write .",
-    "test": "vitest run",
-    "vercel-build": "next build"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "format": "prettier --write .",
+  "test": "vitest run",
+  "vercel-build": "next build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.20",
