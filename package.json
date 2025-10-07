@@ -1,0 +1,42 @@
+{
+  "name": "bvetra-pro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "sentry:init": "node scripts/sentry-init.js",
+    "postbuild": "node scripts/postbuild.js || true",
+    "prepare": "husky install",
+    "pwa:build": "echo 'pwa build placeholder'"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "axios": "^1.4.0",
+    "@sentry/nextjs": "^7.22.0",
+    "framer-motion": "^10.12.4",
+    "workbox-window": "^6.5.4",
+    "localforage": "^1.10.0",
+    "openid-client": "^5.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "openai": "^4.22.1",
+    "cookie": "^0.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/react": "^18.2.28",
+    "@types/node": "^20.3.1",
+    "tailwindcss": "^3.5.0",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.45.0",
+    "prettier": "^2.8.8"
+  }
+}
